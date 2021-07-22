@@ -1,0 +1,977 @@
+{
+	"info": {
+		"_postman_id": "14bdc989-a4b1-49a4-a36a-ed867f496267",
+		"name": "SportyShoesTestCases",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "findAllAdmins",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"adminId\":\"klet\",\"id\":2222,\"adminPwd\":\"pass\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin-management/findAllAdmins",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin-management",
+						"findAllAdmins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findAdminsByAdminId",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"adminId\":\"klet\",\"id\":2222,\"adminPwd\":\"pass\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin-management/findAdminsByAdminId/curt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin-management",
+						"findAdminsByAdminId",
+						"curt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findAllUsers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"adminId\":\"klet\",\"id\":2222,\"adminPwd\":\"pass\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user-management/findAllUsers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user-management",
+						"findAllUsers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findUsersByFirstName",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"adminId\":\"klet\",\"id\":2222,\"adminPwd\":\"pass\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user-management/findUsersByFirstName/rae",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user-management",
+						"findUsersByFirstName",
+						"rae"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findAllCartItems",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"adminId\":\"klet\",\"id\":2222,\"adminPwd\":\"pass\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cart-item-management/findAllCartItems",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cart-item-management",
+						"findAllCartItems"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findCartItemByName",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"adminId\":\"klet\",\"id\":2222,\"adminPwd\":\"pass\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cart-item-management/findCartItemByName/cart2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cart-item-management",
+						"findCartItemByName",
+						"cart2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findAllCategories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/category-management/findAllCategories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"category-management",
+						"findAllCategories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findCategoriesByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/category-management/findCategoriesByName/crocs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"category-management",
+						"findCategoriesByName",
+						"crocs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findAllProducts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/product-management/findAllProducts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product-management",
+						"findAllProducts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findProductsByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/product-management/findProductsByName/crocs3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product-management",
+						"findProductsByName",
+						"crocs3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findAllPurchases",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/purchase-management/findAllPurchases",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"purchase-management",
+						"findAllPurchases"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findPurchasesByUserId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/purchase-management/findPurchasesByUserId/111",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"purchase-management",
+						"findPurchasesByUserId",
+						"111"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findAllPurchaseItems",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/purchase-item-management/findAllPurchaseItems",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"purchase-item-management",
+						"findAllPurchaseItems"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findPurchaseItemsByUserId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/purchase-item-management/findPurchaseItemsByUserId/222",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"purchase-item-management",
+						"findPurchaseItemsByUserId",
+						"222"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"fname\": \"rae\",\r\n        \"lname\": \"mendoza1\",\r\n        \"address\": \"2342 st city california\",\r\n        \"age\": 112,\r\n        \"dateAdded\": \"2021-07-19T00:00:00.000+0000\",\r\n        \"pwd\": \"pass1\",\r\n        \"id\": \"444\",\r\n        \"email\": \"email@gmail.com\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user-management/addUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user-management",
+						"addUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addAdmin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"adminId\":\"roen\",\"id\":\"444\",\"adminPwd\":\"pass\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin-management/addAdmin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin-management",
+						"addAdmin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addCartItem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"productId\": \"444\",\r\n        \"name\": \"cart2\",\r\n        \"rate\": 10.00,\r\n        \"price\": 100.00,\r\n        \"qty\": 100,\r\n        \"id\": \"444\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cart-item-management/addCartItem",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cart-item-management",
+						"addCartItem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addCategory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"name\": \"crocs\",\r\n        \"id\": \"444\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/category-management/addCategory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"category-management",
+						"addCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"name\": \"crocs2\",\r\n        \"price\": 200.00,\r\n        \"dateAdded\": \"2021-07-19T00:00:00.000+0000\",\r\n        \"categoryId\": \"444\",\r\n        \"id\": \"444\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/product-management/addProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product-management",
+						"addProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addPurchase",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"userId\": \"111\",\r\n        \"date\": \"2021-07-19T00:00:00.000+0000\",\r\n        \"total\": 1000.00,\r\n        \"id\": \"444\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/purchase-management/addPurchase",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"purchase-management",
+						"addPurchase"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addPurchaseItem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"purchaseId\": \"444\",\r\n        \"productId\": \"444\",\r\n        \"userId\": \"111\",\r\n        \"rate\": 2000.00,\r\n        \"qty\": 20,\r\n        \"price\": 200.00,\r\n        \"id\": \"444\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/purchase-item-management/addPurchaseItem",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"purchase-item-management",
+						"addPurchaseItem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateAdmin",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"adminId\":\"curtis\",\"id\":\"111\",\"adminPwd\":\"password\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin-management/updateAdmin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin-management",
+						"updateAdmin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateUser",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"fname\": \"roel2\",\r\n        \"lname\": \"mendoza2\",\r\n        \"address\": \"2342 st city california\",\r\n        \"age\": 15,\r\n        \"dateAdded\": \"2021-07-19T00:00:00.000+0000\",\r\n        \"pwd\": \"pass2\",\r\n        \"id\": \"111\",\r\n        \"email\": \"email1@gmail.com\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user-management/updateUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user-management",
+						"updateUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateCartItem",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"productId\": \"111\",\r\n        \"name\": \"cart1\",\r\n        \"rate\": 20.00,\r\n        \"price\": 20000.00,\r\n        \"qty\": 200,\r\n        \"id\": \"111\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cart-item-management/updateCartItem",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cart-item-management",
+						"updateCartItem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateCategory",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"name\": \"crocs\",\r\n        \"id\": \"333\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/category-management/updateCategory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"category-management",
+						"updateCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateProduct",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"name\": \"croc1\",\r\n        \"price\": 200.00,\r\n        \"dateAdded\": \"2021-07-19T00:00:00.000+0000\",\r\n        \"categoryId\": \"222\",\r\n        \"id\": \"222\"\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/product-management/updateProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product-management",
+						"updateProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatePurchase",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"userId\": \"111\",\r\n        \"date\": \"2021-07-19T00:00:00.000+0000\",\r\n        \"total\": 5000.00,\r\n        \"id\": \"222\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/purchase-management/updatePurchase",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"purchase-management",
+						"updatePurchase"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatePurchaseItem",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"purchaseId\": \"111\",\r\n        \"productId\": \"111\",\r\n        \"userId\": \"111\",\r\n        \"rate\": 3000.00,\r\n        \"qty\": 30,\r\n        \"price\": 100.00,\r\n        \"id\": \"111\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/purchase-item-management/updatePurchaseItem",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"purchase-item-management",
+						"updatePurchaseItem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteAdmin",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"adminId\":\"rae\",\"id\":\"111\",\"adminPwd\":\"pass\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/admin-management/deleteAdmin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin-management",
+						"deleteAdmin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteUser",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"fname\": \"roel\",\r\n        \"lname\": \"mendoza\",\r\n        \"address\": \"2342 st city california\",\r\n        \"age\": 12,\r\n        \"dateAdded\": \"2021-07-19T00:00:00.000+0000\",\r\n        \"pwd\": \"pass\",\r\n        \"id\": \"111\",\r\n        \"email\": \"email@gmail.com\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user-management/deleteUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user-management",
+						"deleteUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteCartItem",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"productId\": \"111\",\r\n        \"name\": \"cart1\",\r\n        \"rate\": 10.00,\r\n        \"price\": 100.00,\r\n        \"qty\": 100,\r\n        \"id\": \"111\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cart-item-management/deleteCartItem",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cart-item-management",
+						"deleteCartItem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteCategory",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"name\": \"addidas\",\r\n        \"id\": \"333\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/category-management/deleteCategory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"category-management",
+						"deleteCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteProduct",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"name\": \"nike1\",\r\n        \"price\": 200.00,\r\n        \"dateAdded\": \"2021-07-19T00:00:00.000+0000\",\r\n        \"categoryId\": \"111\",\r\n        \"id\": \"111\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/product-management/deleteProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product-management",
+						"deleteProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletePurchase",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"userId\": \"111\",\r\n        \"date\": \"2021-07-19T00:00:00.000+0000\",\r\n        \"total\": 1000.00,\r\n        \"id\": \"222\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/purchase-management/deletePurchase",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"purchase-management",
+						"deletePurchase"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletePurchaseItem",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"purchaseId\": \"111\",\r\n        \"productId\": \"111\",\r\n        \"userId\": \"111\",\r\n        \"rate\": 3000.00,\r\n        \"qty\": 30,\r\n        \"price\": 100.00,\r\n        \"id\": \"111\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/purchase-item-management/deletePurchaseItem",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"purchase-item-management",
+						"deletePurchaseItem"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
